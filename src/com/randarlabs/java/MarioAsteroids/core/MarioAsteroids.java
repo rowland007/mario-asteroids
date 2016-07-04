@@ -69,17 +69,17 @@ public class MarioAsteroids extends Core implements KeyListener, Runnable {
 		
 		Graphics2D g = this.g;
 		
-		fire.load("res\\raw\\smb_bowserfire.wav");
-		destroyed.load("res\\raw\\smb_breakblock.wav");
-		marioDie.load("res\\raw\\smb_mariodie.wav");
-		stageCleared.load("res\\raw\\smb_stage_clear.wav");
-		bgMusic.load("res\\raw\\sm64_happy_message.wav");
+		fire.load("res/raw/smb_bowserfire.wav");
+		destroyed.load("res/raw/smb_breakblock.wav");
+		marioDie.load("res/raw/smb_mariodie.wav");
+		stageCleared.load("res/raw/smb_stage_clear.wav");
+		bgMusic.load("res/raw/sm64_happy_message.wav");
 		bgMusic.setLooping(true);
 		
-		bg = new ImageIcon("res\\mario_pokemon.jpeg").getImage();
-		marioIcon = new ImageIcon("res\\Smb1_mario.png").getImage();
-		hammerIcon = new ImageIcon("res\\33px-Smb1_hammer.png").getImage();
-		fireballIcon = new ImageIcon("res\\Smb1_bowser_flamef.png").getImage();
+		bg = new ImageIcon("res/mario_pokemon.jpeg").getImage();
+		marioIcon = new ImageIcon("res/Smb1_mario.png").getImage();
+		hammerIcon = new ImageIcon("res/33px-Smb1_hammer.png").getImage();
+		fireballIcon = new ImageIcon("res/Smb1_bowser_flamef.png").getImage();
 		
 		mario = new Sprite(w, g);
 		mario.setImage(marioIcon);
